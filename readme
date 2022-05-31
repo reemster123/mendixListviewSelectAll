@@ -1,0 +1,5 @@
+In mendix it is (currently mx 9.12.2) not by default possible to select all records at once when you have added some constraints to your query using the filter widgets 
+on a listview. This is a testProject which shows a unique way of making this possible. It uses a javascript action to retrieve the entered values of the filterwidgets 
+and a unique way of using xpath to retrieve records in a generic way for these filtervalues.
+
+More documentation is found in the project itself. 
